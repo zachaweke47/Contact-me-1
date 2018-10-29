@@ -1,0 +1,61 @@
+-
+* {
+  font-family: 'CMUSerifRoman'; 
+  font-weight: normal; 
+  font-style: normal; 
+  text-align: center;}
+
+body {
+  padding: 0.5em;
+  width: 90%;
+  margin: 0 auto;
+  background-image:url("https://images.pexels.com/photos/255377/pexels-photo-255377.jpeg");
+  background-size:contain;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+#content {
+  overflow: auto;
+  color: green; }
+#nav, #feature, #footer {
+  margin: 3%;}
+.column1 {
+  width: 100%;
+  float: center;
+  margin: 1%;
+  height: 100;
+  margin-bottom: 1em;
+  background-color:white;
+  padding: 0.5em;}
+main {
+  flex: auto;
+}
+
+h1 {
+  color:white;
+}
+
+#nav, #footer {
+  
+  background-color:pink;
+  padding: 0.5em 12px;
+  margin: 0.5px;
+  padding: 10px 20px
+}
+  
+
+#nav li {display:inline;}
+
+
+p, h1,a { 
+  font-family: 'DancingScriptRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
+  font-size: 200%;
+
+
+
