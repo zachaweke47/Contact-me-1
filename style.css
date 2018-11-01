@@ -47,9 +47,10 @@ h1 {
   padding: 10px 20px
 }
   
-
-#nav li {display:inline;}
-
+#nav li {
+  display:inline;
+  padding: 1em;
+}
 
 p, h1,a { 
   font-family: 'DancingScriptRegular'; 
