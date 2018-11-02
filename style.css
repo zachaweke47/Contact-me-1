@@ -1,8 +1,8 @@
 -
 * {
-  font-family: 'CMUSerifRoman'; 
-  font-weight: normal; 
-  font-style: normal; 
+ font-family: 'CMUSerifRoman'; 
+   font-weight: normal; 
+   font-style: normal; ; 
   text-align: center;}
 
 body {
@@ -53,9 +53,9 @@ h1 {
 }
 
 p, h1,a { 
-  font-family: 'DancingScriptRegular'; 
-  font-weight: normal; 
-  font-style: normal; 
+  font-family: 'CMUSerifRoman'; 
+   font-weight: normal; 
+   font-style: normal; ; 
   font-size: 200%;
 
 
