@@ -1,42 +1,65 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="Stylesheet" media="screen" href="https://fontlibrary.org/face/dancing" type="text/css"/>
-    <link rel="Stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contact Me</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/unique" type="text/css"/>
   </head>
   <body>
+    <header>
+      <h1>Contact Me</h1>
+      <nav>
+ <ul>
+<li><a href="https://sado21.github.io/home/">Home</a></li>
+<li><a href="https://sado21.github.io/About/">About</a></li>
+<li><a href="https://sado21.github.io/Coursework/">Coursework</a></li><li><a href="https://sado21.github.io/artifacts/">Artifacts</a></li> <li><a href="https://sado21.github.io/Module-Assignments/">Module Assignments</a></li>
+<li><a href="https://sado21.github.io/Contact-me/">Contact Me</a></li>
+<li><a href="https://sado21.github.io/own-creative-page/">own-creative-page</a></li>
+        </ul>
 
-    <h1>Contact me</h1>
+      </nav>
+    </header>
+    <main>	
+      <section>
+        <hr>
+        <h2>Contact Form</h2>
+        <form action="thankyou.html" method="get">
 
+          Full Name:<br>
+          <input type="text" name="myContact" maxlength="50"><p>
 
-    <div id="nav">
-      <ul>
-        <li><a href="https://sado21.github.io/home/" target= "_blank">Home</a></li>
-        <li><a href="https://sado21.github.io/About/" target= "_blank">About</a></li>
-        <li><a href="https://sado21.github.io/Coursework/" target= "_blank">Coursework</a></li> 
-        <li><a href="https://sado21.github.io/artifacts/" target= "_blank">Artifacts</a></li>
-        <li><a href="https://sado21.github.io/Module-Assignments/" target= "_blank">Module Assignments</a></li>
-        <li><a href="https://sado21.github.io/Contact-me/" target= "_blank">Contact me</a></li>
-        <li><a href="https://sado21.github.io/own-creative-page/" target= "_blank">Own creative page</a></li>
-      </ul>
-    </div>
-    <div id="feature2">
-      <p>Fill out the form if you want to reach me.</p>
-    </div>
-    <div class="article column1">
-      <form action="thankyou.html">
-        First name: <input type="text" value="I will"><br>
-        Last name: <input type="text" name="lastname" value="Steal your ID"><br>Message<br>
-        <textarea rows=12 name="comment" >there is nothing to gain</textarea> 
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-    <div id="footer">
-      <p>&copy; Copyright 2011</p>
-    </div>
+          Email Address:<br>
+          <input type="email" name="email" maxlength="50"><p>
+
+          Comments:<br>
+          <textarea name="comment" cols="20" rows="5"></textarea><p>
+
+          Are You New to my Site?<br>
+          <input type="radio" name="new" value="Yes" />Yes 
+          <input type="radio" name="new" value="No" /> No
+          <p>
+
+            Would you like to subscribe to my blog? 
+            <input type="checkbox" name="new" value="Yes" />Yes <p>
+
+          <p>
+
+            <input type="submit" value="Send">
+
+        </form>
+
+        <div class="clear"> </div>
+
+        <div class="clear"> </div>
+      </section>
+    </main>
+    <footer>
+      <p>© Copyright 2018 |<a href="https://sado21.github.io/home/">Go Home</a></p>
+
+      <p id="date"></p>
+    </footer>
+    <script src="date.js"></script>
   </body>
 </html>
